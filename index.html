@@ -8,75 +8,105 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
-      <div class="topnav">
-        <a class="brand" href="index.html">Md Rakib Hossain</a>
-        <nav class="nav-links">
-          <a href="about.html">About</a>
-          <a href="research.html">Research</a>
-          <a href="publications.html">Publications</a>
-          <a href="cv.html">CV</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </div>
-      <section class="hero">
-        <h1>Md Rakib Hossain</h1>
-        <p>PhD Candidate, Department of Materials Science and Engineering, University of Florida</p>
-        <p>Assistant Professor of Physics, Gopalganj Science and Technology University, Bangladesh</p>
-        <p>Currently on education leave and pursuing doctoral research in computational materials science.</p>
-        <div class="hero-links">
-          <a class="button" href="research.html">View Research</a>
-          <a class="button secondary" href="CV.pdf" target="_blank">Download CV</a>
-        </div>
-      </section>
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><span class="brand-mark">MR</span><span>Md Rakib Hossain</span></a>
+      <nav class="nav-links">
+        <a href="about.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
   </header>
 
-  <main>
-    <div class="container two-col">
-      <section>
-        <div class="card">
-          <h2 class="section-title">Welcome</h2>
-          <p>
-            I am Md Rakib Hossain, a PhD candidate in the Department of Materials Science and Engineering at the
-            University of Florida and an Assistant Professor of Physics at Gopalganj Science and Technology University,
-            Bangladesh. My academic background is in physics, and my current work focuses on computational materials
-            science, machine-learning interatomic potentials, phonon-dislocation interactions, and thermal transport.
-          </p>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-card">
+        <div class="eyebrow">Computational Materials Science · DFT · Thermal Transport</div>
+        <h1>Md Rakib Hossain</h1>
+        <p>PhD Candidate, Department of Materials Science and Engineering, University of Florida</p>
+        <p>Assistant Professor of Physics, Gopalganj Science and Technology University, Bangladesh</p>
+        <p>Currently on education leave and pursuing doctoral research in computational materials science, machine-learning interatomic potentials, phonon-dislocation interactions, and thermal transport.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="research.html">Explore Research</a>
+          <a class="button secondary" href="CV.pdf" target="_blank">Download CV</a>
         </div>
+      </div>
 
-        <div class="card">
-          <h2 class="section-title">Current Research Focus</h2>
-          <ul>
-            <li>Machine-learning interatomic potentials for PbSe, PbTe, and PbSe/PbTe heterostructures</li>
-            <li>Phonon-dislocation interactions and their effects on thermal transport</li>
-            <li>First-principles and atomistic modeling of materials behavior</li>
-          </ul>
+      <aside class="profile-panel">
+        <div>
+          <div class="profile-top">
+            <div class="profile-photo">MR</div>
+            <div>
+              <h2>Academic Profile</h2>
+              <p class="small">Computational physics and materials modeling across first-principles theory, atomistic simulation, and machine-learning potentials.</p>
+            </div>
+          </div>
+          <div class="inline-links">
+            <a href="https://www.gstu.edu.bd/dev/dept/profile.php?dept=physics&id=9" target="_blank">GSTU Profile</a>
+            <a href="https://phillpot.mse.ufl.edu/group-members/" target="_blank">UF Group Page</a>
+            <a href="https://scholar.google.com/citations?user=X8uDOxEAAAAJ&hl=en" target="_blank">Google Scholar</a>
+          </div>
+        </div>
+        <div class="note-box">You can replace the initials block with your own profile photo later by adding an image and updating the HTML.</div>
+      </aside>
+    </div>
+  </section>
+
+  <main>
+    <div class="container">
+      <section class="section">
+        <div class="stats-grid">
+          <div class="stat"><div class="stat-value">PhD</div><div>University of Florida</div></div>
+          <div class="stat"><div class="stat-value">Assistant Prof.</div><div>Physics, GSTU</div></div>
+          <div class="stat"><div class="stat-value">13+</div><div>Journal articles listed in CV</div></div>
+          <div class="stat"><div class="stat-value">DFT</div><div>Core modeling approach</div></div>
         </div>
       </section>
 
-      <aside>
-        <div class="card">
+      <section class="section">
+        <h2 class="section-title">Research Highlights</h2>
+        <p class="section-lead">A modern snapshot of current and past work, from nanomaterials and adsorption studies to interatomic potentials and phonon-driven transport.</p>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="kicker">Current</span>
+            <h3>Machine-learning interatomic potentials</h3>
+            <p>Developing and evaluating potentials for PbSe, PbTe, and related heterostructures to study lattice dynamics and thermal transport with atomistic efficiency.</p>
+          </article>
+          <article class="feature-card">
+            <span class="kicker">Current</span>
+            <h3>Phonon-dislocation interactions</h3>
+            <p>Investigating how structural defects scatter phonons and influence conductivity, with a focus on physically grounded simulation workflows.</p>
+          </article>
+          <article class="feature-card">
+            <span class="kicker">Previous</span>
+            <h3>Low-dimensional nanomaterials</h3>
+            <p>First-principles studies of sensing, adsorption, and delivery behavior in boron-based and other nanoscale materials systems.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section grid-2">
+        <article class="card">
+          <h2 class="section-title">Welcome</h2>
+          <p>I am Md Rakib Hossain, a PhD candidate in Materials Science and Engineering at the University of Florida and an Assistant Professor of Physics at Gopalganj Science and Technology University, Bangladesh.</p>
+          <p>My academic background is rooted in physics, while my current research sits at the intersection of computational materials science, atomistic modeling, and thermal transport.</p>
+          <div class="inline-links">
+            <a class="button ghost" href="about.html">Read full biography</a>
+          </div>
+        </article>
+
+        <article class="card">
           <h2 class="section-title">Quick Links</h2>
-          <ul>
+          <ul class="clean-list">
             <li><a href="https://www.gstu.edu.bd/dev/dept/profile.php?dept=physics&id=9" target="_blank">GSTU Faculty Profile</a></li>
             <li><a href="https://phillpot.mse.ufl.edu/group-members/" target="_blank">UF Research Group Profile</a></li>
             <li><a href="https://scholar.google.com/citations?user=X8uDOxEAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
             <li><a href="CV.pdf" target="_blank">Curriculum Vitae</a></li>
           </ul>
-        </div>
-
-        <div class="card">
-          <h2 class="section-title">Research Interests</h2>
-          <ul>
-            <li>Computational Materials Science</li>
-            <li>Density Functional Theory</li>
-            <li>Low-dimensional Nanomaterials</li>
-            <li>Gas Sensing and Drug Delivery Materials</li>
-            <li>Thermal Transport</li>
-          </ul>
-        </div>
-      </aside>
+        </article>
+      </section>
     </div>
   </main>
 
